@@ -1,0 +1,19 @@
+/* oil.css */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200..900&family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    scroll-behavior: smooth;
+}
+
+.font-kufam { font-family: 'Kufam', sans-serif; }
+.font-tajawal { font-family: 'Tajawal', sans-serif; }
+
+/* Parallax effect placeholder */
+.hero-zoom {
+    animation: zoom-in 20s infinite alternate;
+}
+
+@keyframes zoom-in {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}

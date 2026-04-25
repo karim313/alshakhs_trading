@@ -1,0 +1,20 @@
+/* chicken.css */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200..900&family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    scroll-behavior: smooth;
+    background-color: #fffafb; /* Very light red hint */
+}
+
+.font-kufam { font-family: 'Kufam', sans-serif; }
+.font-tajawal { font-family: 'Tajawal', sans-serif; }
+
+/* Pulse animation for live indicators */
+@keyframes pulse-soft {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+.animate-pulse-soft {
+    animation: pulse-soft 2s ease-in-out infinite;
+}

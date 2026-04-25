@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قسم السكر الأبيض | شركة الشخص التجارية</title>
+    <link rel="stylesheet" href="sugar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200..900&family=Kufam:wght@400..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'cairo': ['Cairo', 'sans-serif'],
+                        'tajawal': ['Tajawal', 'sans-serif'],
+                        'kufam': ['Kufam', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-tajawal bg-white text-gray-900">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-amber-100 py-4">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="images/logo.jpg" alt="Logo" class="w-12 h-12 rounded-lg">
+                <span class="text-xl font-black text-emerald-900 font-kufam">شركة الشخص</span>
+            </a>
+            <a href="index.html" class="px-6 py-2 bg-amber-600 text-white rounded-xl text-sm font-bold hover:bg-amber-700 transition-all">العودة للرئيسية</a>
+        </div>
+    </header>
+
+    <main class="pt-24">
+        <section class="relative py-20 overflow-hidden bg-gradient-to-br from-amber-600 to-amber-800 text-white">
+            <div class="absolute inset-0 opacity-10">
+                <img src="images/white-shogar.jpg" class="w-full h-full object-cover" alt="Background">
+            </div>
+            <div class="container mx-auto px-4 relative z-10 text-center">
+                <h1 class="text-4xl sm:text-6xl font-black mb-6 font-kufam">قسم السكر الأبيض</h1>
+                <p class="text-xl text-amber-100 max-w-2xl mx-auto leading-relaxed">نقدم لكم أجود أنواع السكر الأبيض الناعم والنقي، المعبأ وفق أعلى معايير السلامة الغذائية العالمية لضمان الحلاوة المثالية.</p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-amber-50 rounded-[3rem] p-8 sm:p-16 border border-amber-100 shadow-xl relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-amber-200/30 rounded-full blur-3xl -mr-16 -mt-16"></div>
+                        
+                        <div class="grid md:grid-cols-2 gap-12 items-center">
+                            <div>
+                                <img src="images/white-shogar.jpg" alt="Sugar" class="rounded-[2rem] shadow-lg hover:scale-105 transition-transform duration-500">
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-black text-gray-900 mb-6">مواصفات سكر الشخص</h3>
+                                <div class="space-y-6">
+                                    <div class="flex gap-4">
+                                        <div class="w-12 h-12 bg-white rounded-2xl shadow-md flex items-center justify-center text-amber-600 shrink-0">✨</div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-900">نقاء عالي</h4>
+                                            <p class="text-gray-600 text-sm">بلورات بيضاء نقية 100% مستخلصة من أفضل قصب السكر.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-4">
+                                        <div class="w-12 h-12 bg-white rounded-2xl shadow-md flex items-center justify-center text-amber-600 shrink-0">📦</div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-900">تعبئة فاخرة</h4>
+                                            <p class="text-gray-600 text-sm">أحجام مختلفة تناسب الاحتياجات المنزلية والتجارية.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="mt-10 w-full py-4 bg-amber-600 text-white font-black rounded-2xl hover:bg-amber-700 shadow-lg shadow-amber-200 transition-all">تواصل للطلب</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-amber-950 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-amber-200/60 text-sm">جميع الحقوق محفوظة © شركة الشخص التجارية 2026</p>
+        </div>
+    </footer>
+
+    <script src="sugar.js"></script>
+</body>
+</html>

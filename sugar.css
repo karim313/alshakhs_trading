@@ -1,0 +1,19 @@
+/* sugar.css */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200..900&family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    scroll-behavior: smooth;
+    background-color: #fffaf0; /* Very light amber */
+}
+
+.font-kufam { font-family: 'Kufam', sans-serif; }
+.font-tajawal { font-family: 'Tajawal', sans-serif; }
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}

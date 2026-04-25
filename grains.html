@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قسم الحبوب والأرز | شركة الشخص التجارية</title>
+    <link rel="stylesheet" href="grains.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200..900&family=Kufam:wght@400..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'cairo': ['Cairo', 'sans-serif'],
+                        'tajawal': ['Tajawal', 'sans-serif'],
+                        'kufam': ['Kufam', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-tajawal bg-emerald-950 text-gray-900 overflow-x-hidden">
+
+    <!-- Fixed Video Background Layer -->
+    <div class="fixed inset-0 w-full h-full z-0 overflow-hidden">
+        <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+            <source src="videos/فيديو صفحة الحبوب.mp4" type="video/mp4">
+        </video>
+        <!-- Immersive Fixed Overlays -->
+        <div class="absolute inset-0 bg-black/30 z-10"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-emerald-950/60 z-10"></div>
+    </div>
+
+    <!-- Sticky Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-4 sm:py-6" id="main-header">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-2 sm:gap-3">
+                <div class="p-1 bg-white rounded-lg sm:rounded-xl shadow-lg">
+                    <img src="images/logo.jpg" alt="Logo" class="w-8 h-8 sm:w-10 sm:h-10 rounded-md sm:rounded-lg">
+                </div>
+                <span class="text-lg sm:text-xl font-black text-white font-kufam tracking-tight drop-shadow-md">شركة الشخص</span>
+            </a>
+            <a href="index.html" class="px-4 sm:px-6 py-2 sm:py-2.5 bg-emerald-600 text-white rounded-xl text-xs sm:text-sm font-bold hover:bg-emerald-700 transition-all hover:shadow-lg hover:shadow-emerald-600/30 flex items-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                <span class="hidden sm:inline">العودة للرئيسية</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="relative z-20">
+        <!-- Transparent Hero Content -->
+        <section class="relative h-screen flex items-center justify-center pt-20">
+            <div class="container mx-auto px-4 text-center">
+                <div class="max-w-4xl mx-auto">
+                    <div class="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-2.5 bg-emerald-600 text-white rounded-full font-bold text-[10px] sm:text-sm mb-6 sm:mb-10 shadow-2xl animate-bounce">
+                        <span class="relative flex h-2 w-2 sm:h-3 sm:w-3">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-100 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 sm:h-3 sm:w-3 bg-white"></span>
+                        </span>
+                        من أفضل مزارع العالم
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-10 font-kufam leading-[1.2] sm:leading-[1.1] drop-shadow-2xl">
+                        أجود أنواع الحبوب <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-amber-500">والأرز الفاخر</span> 
+                    </h1>
+                    
+                    <p class="text-base sm:text-2xl text-emerald-50/90 mb-8 sm:mb-12 leading-relaxed max-w-3xl mx-auto drop-shadow-lg font-medium px-4">
+                        نوفر أجود أنواع الأرز البسمتي والسيلا والحبوب المختارة بعناية لتصل إلى مائدتكم بأعلى معايير الجودة العالمية.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
+                        <div class="w-full sm:w-auto p-4 sm:p-6 bg-white/10 backdrop-blur-2xl rounded-2xl sm:rounded-[2rem] border border-white/20 shadow-2xl flex items-center gap-4 hover:bg-white/20 transition-all duration-500 group cursor-default">
+                            <div class="text-4xl sm:text-5xl group-hover:scale-110 transition-transform">🌾</div>
+                            <div class="text-right">
+                                <h4 class="font-bold text-white text-lg sm:text-xl">أرز بسمتي</h4>
+                                <p class="text-emerald-100/70 text-xs sm:text-sm">حبة طويلة وعطرة</p>
+                            </div>
+                        </div>
+                        <div class="w-full sm:w-auto p-4 sm:p-6 bg-white/10 backdrop-blur-2xl rounded-2xl sm:rounded-[2rem] border border-white/20 shadow-2xl flex items-center gap-4 hover:bg-white/20 transition-all duration-500 group cursor-default">
+                            <div class="text-4xl sm:text-5xl group-hover:scale-110 transition-transform">🍚</div>
+                            <div class="text-right">
+                                <h4 class="font-bold text-white text-lg sm:text-xl">أرز سيلا</h4>
+                                <p class="text-emerald-100/70 text-xs sm:text-sm">للولائم والعزائم</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 sm:gap-3">
+                <span class="text-white/50 text-[10px] sm:text-xs font-bold uppercase tracking-widest">اكتشف المزيد</span>
+                <div class="w-6 h-10 sm:w-8 sm:h-14 border-2 border-white/20 rounded-full flex justify-center p-1.5 sm:p-2 backdrop-blur-sm">
+                    <div class="w-1 sm:w-1.5 h-2 sm:h-3 bg-emerald-500 rounded-full animate-scroll"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Details with Transparent Background -->
+        <section class="py-32 relative overflow-hidden">
+            <div class="absolute inset-0 bg-emerald-950/20 backdrop-blur-[2px] z-0"></div>
+            
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="grid lg:grid-cols-2 gap-16 items-center mb-32">
+                    <div class="relative group">
+                        <div class="absolute -inset-4 bg-emerald-500/20 rounded-[3rem] blur-3xl group-hover:bg-emerald-500/30 transition-all"></div>
+                        <img src="images/rice.png" alt="Rice" class="relative rounded-[2.5rem] shadow-2xl w-full object-cover transform hover:scale-105 transition-all duration-700">
+                    </div>
+                    <div class="text-right">
+                        <span class="inline-flex items-center gap-2 px-4 py-2 bg-emerald-600/20 text-emerald-300 border border-emerald-500/30 rounded-full font-bold text-xs mb-6 backdrop-blur-md">
+                            المنتج الأكثر طلباً
+                        </span>
+                        <h2 class="text-3xl sm:text-5xl font-black mb-8 text-white font-kufam">أرز بسمتي هندي فاخر</h2>
+                        <p class="text-emerald-50/70 text-lg sm:text-xl mb-10 leading-relaxed">يتميز أرزنا البسمتي بحبته الطويلة ورائحته الزكية التي تضفي لمسة خاصة على أطباقكم. يتم اختياره من أجود محاصيل الهند ويخضع لعمليات تنقية وفرز دقيقة.</p>
+                        <div class="grid gap-4">
+                            <div class="flex items-center gap-4 text-white bg-white/5 p-4 rounded-2xl border border-white/10 hover:bg-white/10 transition-all">
+                                <div class="w-8 h-8 bg-emerald-600 rounded-full flex items-center justify-center text-sm">✓</div>
+                                <span class="text-lg">حبة طويلة ونقية 100%</span>
+                            </div>
+                            <div class="flex items-center gap-4 text-white bg-white/5 p-4 rounded-2xl border border-white/10 hover:bg-white/10 transition-all">
+                                <div class="w-8 h-8 bg-emerald-600 rounded-full flex items-center justify-center text-sm">✓</div>
+                                <span class="text-lg">رائحة عطرية طبيعية</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-16 items-center flex-row-reverse">
+                    <div class="lg:order-2 relative group">
+                        <div class="absolute -inset-4 bg-amber-500/20 rounded-[3rem] blur-3xl group-hover:bg-amber-500/30 transition-all"></div>
+                        <img src="images/rice3.png" alt="Rice 3" class="relative rounded-[2.5rem] shadow-2xl w-full object-cover transform hover:scale-105 transition-all duration-700">
+                    </div>
+                    <div class="lg:order-1 text-right">
+                        <span class="inline-flex items-center gap-2 px-4 py-2 bg-amber-600/20 text-amber-300 border border-amber-500/30 rounded-full font-bold text-xs mb-6 backdrop-blur-md">
+                            جديدنا في شركة الشخص
+                        </span>
+                        <h2 class="text-3xl sm:text-5xl font-black mb-8 text-white font-kufam">أرز سيلا هندي</h2>
+                        <p class="text-emerald-50/70 text-lg sm:text-xl mb-10 leading-relaxed">أرز سيلا المتميز بقدرته العالية على امتصاص النكهات وقوامه المتماسك بعد الطبخ، الخيار الأمثل للعزائم والولائم الكبيرة.</p>
+                        <button class="px-10 py-4 bg-emerald-600 text-white font-bold rounded-2xl shadow-2xl hover:bg-emerald-700 hover:scale-105 transition-all hover:shadow-emerald-600/30">
+                            اطلب الآن
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="relative z-20 bg-black/40 backdrop-blur-md text-white py-20 border-t border-white/10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-12">
+                <div class="flex items-center gap-6">
+                    <div class="p-2 bg-white rounded-2xl shadow-xl">
+                        <img src="images/logo.jpg" alt="Logo" class="w-16 h-16 rounded-xl">
+                    </div>
+                    <div>
+                        <span class="text-3xl font-black font-kufam block text-white">شركة الشخص التجارية</span>
+                        <span class="text-emerald-400 text-sm font-bold tracking-widest uppercase">الريادة في الحبوب والأرز</span>
+                    </div>
+                </div>
+                <div class="text-center md:text-left">
+                    <p class="text-emerald-100/60 text-lg mb-4">جميع الحقوق محفوظة © شركة الشخص التجارية 2026</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        @keyframes scroll {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(20px); opacity: 0; }
+        }
+        .animate-scroll {
+            animation: scroll 2s infinite;
+        }
+    </style>
+
+    <script src="grains.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قسم الدواجن الطازجة | شركة الشخص التجارية</title>
+    <link rel="stylesheet" href="chicken.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200..900&family=Kufam:wght@400..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'cairo': ['Cairo', 'sans-serif'],
+                        'tajawal': ['Tajawal', 'sans-serif'],
+                        'kufam': ['Kufam', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-tajawal bg-emerald-950 text-gray-900 overflow-x-hidden">
+
+    <!-- Fixed Video Background Layer -->
+    <div class="fixed inset-0 w-full h-full z-0 overflow-hidden">
+        <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+            <source src="videos/فيديو صفحة الفراخ.mp4" type="video/mp4">
+        </video>
+        <!-- Immersive Fixed Overlays (Lightened) -->
+        <div class="absolute inset-0 bg-black/30 z-10"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-emerald-950/60 z-10"></div>
+    </div>
+
+    <!-- Sticky Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-4 sm:py-6" id="main-header">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-2 sm:gap-3">
+                <div class="p-1 bg-white rounded-lg sm:rounded-xl shadow-lg">
+                    <img src="images/logo.jpg" alt="Logo" class="w-8 h-8 sm:w-10 sm:h-10 rounded-md sm:rounded-lg">
+                </div>
+                <span class="text-lg sm:text-xl font-black text-white font-kufam tracking-tight drop-shadow-md">شركة الشخص</span>
+            </a>
+            <a href="index.html" class="px-4 sm:px-6 py-2 sm:py-2.5 bg-emerald-600 text-white rounded-xl text-xs sm:text-sm font-bold hover:bg-emerald-700 transition-all hover:shadow-lg hover:shadow-emerald-600/30 flex items-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                <span class="hidden sm:inline">العودة للرئيسية</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="relative z-20">
+        <!-- Transparent Hero Content -->
+        <section class="relative h-screen flex items-center justify-center pt-20">
+            <div class="container mx-auto px-4 text-center">
+                <div class="max-w-4xl mx-auto">
+                    <div class="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-2.5 bg-emerald-600 text-white rounded-full font-bold text-[10px] sm:text-sm mb-6 sm:mb-10 shadow-2xl animate-bounce">
+                        <span class="relative flex h-2 w-2 sm:h-3 sm:w-3">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-100 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 sm:h-3 sm:w-3 bg-white"></span>
+                        </span>
+                        طازج يومياً من المزرعة
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-10 font-kufam leading-[1.2] sm:leading-[1.1] drop-shadow-2xl">
+                        لحوم الدواجن <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-amber-500">الأكثر جودة</span> 
+                    </h1>
+                    
+                    <p class="text-base sm:text-2xl text-emerald-50/90 mb-8 sm:mb-12 leading-relaxed max-w-3xl mx-auto drop-shadow-lg font-medium px-4">
+                        نلتزم بأعلى معايير الرفق بالحيوان والتغذية الطبيعية لنقدم لكم دواجن طازجة، صحية، وخالية تماماً من الهرمونات والمضادات الحيوية.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
+                        <div class="w-full sm:w-auto p-4 sm:p-6 bg-white/10 backdrop-blur-2xl rounded-2xl sm:rounded-[2rem] border border-white/20 shadow-2xl flex items-center gap-4 hover:bg-white/20 transition-all duration-500 group cursor-default">
+                            <div class="text-4xl sm:text-5xl group-hover:scale-110 transition-transform">🥚</div>
+                            <div class="text-right">
+                                <h4 class="font-bold text-white text-lg sm:text-xl">تغذية نباتية</h4>
+                                <p class="text-emerald-100/70 text-xs sm:text-sm">طبيعية 100%</p>
+                            </div>
+                        </div>
+                        <div class="w-full sm:w-auto p-4 sm:p-6 bg-white/10 backdrop-blur-2xl rounded-2xl sm:rounded-[2rem] border border-white/20 shadow-2xl flex items-center gap-4 hover:bg-white/20 transition-all duration-500 group cursor-default">
+                            <div class="text-4xl sm:text-5xl group-hover:scale-110 transition-transform">🧊</div>
+                            <div class="text-right">
+                                <h4 class="font-bold text-white text-xl">تبريد فوري</h4>
+                                <p class="text-emerald-100/70 text-xs sm:text-sm">للحفاظ على الطراوة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </section>
+
+        <!-- Quality Standards with LIGHTER Transparent Background -->
+        <section class="py-32 relative overflow-hidden">
+            <!-- Lightened semi-transparent overlay -->
+            <div class="absolute inset-0 bg-emerald-950/20 backdrop-blur-[2px] z-0"></div>
+            
+            <div class="container mx-auto px-4 text-center relative z-10">
+                <div class="inline-flex items-center gap-2 mb-8 px-4 py-2 bg-emerald-600/20 text-emerald-300 border border-emerald-500/30 rounded-full font-bold text-xs backdrop-blur-md">
+                    <div class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
+                    التزامنا بالتميز في شركة الشخص
+                </div>
+                <h2 class="text-4xl md:text-6xl font-black mb-20 font-kufam text-white drop-shadow-xl">معايير الجودة لدينا</h2>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
+                    <div class="p-10 bg-white/5 backdrop-blur-2xl rounded-[3rem] border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-500 group text-right">
+                        <div class="text-6xl mb-8 transform group-hover:scale-110 transition-transform">🔬</div>
+                        <h3 class="font-black mb-4 text-2xl text-white">فحص مخبري</h3>
+                        <p class="text-emerald-50/70 leading-relaxed text-lg">فحوصات دورية وشاملة لضمان خلو جميع المنتجات من البكتيريا والملوثات.</p>
+                    </div>
+                    <div class="p-10 bg-white/5 backdrop-blur-2xl rounded-[3rem] border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-500 group text-right">
+                        <div class="text-6xl mb-8 transform group-hover:scale-110 transition-transform">🚚</div>
+                        <h3 class="font-black mb-4 text-2xl text-white">نقل مبرد</h3>
+                        <p class="text-emerald-50/70 leading-relaxed text-lg">أسطول نقل متطور مجهز بأحدث تقنيات التحكم في درجات الحرارة لضمان الطراوة.</p>
+                    </div>
+                    <div class="p-10 bg-white/5 backdrop-blur-2xl rounded-[3rem] border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-500 group text-right">
+                        <div class="text-6xl mb-8 transform group-hover:scale-110 transition-transform">🕋</div>
+                        <h3 class="font-black mb-4 text-2xl text-white">ذبح إسلامي</h3>
+                        <p class="text-emerald-50/70 leading-relaxed text-lg">جميع دواجننا مذبوحة طبقاً لأحكام الشريعة الإسلامية وتحت إشراف مباشر.</p>
+                    </div>
+                    <div class="p-10 bg-white/5 backdrop-blur-2xl rounded-[3rem] border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-500 group text-right">
+                        <div class="text-6xl mb-8 transform group-hover:scale-110 transition-transform">🏷️</div>
+                        <h3 class="font-black mb-4 text-2xl text-white">تغليف آمن</h3>
+                        <p class="text-emerald-50/70 leading-relaxed text-lg">استخدام تقنيات تغليف عالمية تحافظ على القيمة الغذائية والطعم الطازج.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with Transparent Background -->
+    <footer class="relative z-20 bg-black/40 backdrop-blur-md text-white py-20 border-t border-white/10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-12">
+                <div class="flex items-center gap-6">
+                    <div class="p-2 bg-white rounded-2xl shadow-xl">
+                        <img src="images/logo.jpg" alt="Logo" class="w-16 h-16 rounded-xl">
+                    </div>
+                    <div>
+                        <span class="text-3xl font-black font-kufam block text-white">شركة الشخص التجارية</span>
+                        <span class="text-emerald-400 text-sm font-bold tracking-widest uppercase">الريادة في المواد الغذائية</span>
+                    </div>
+                </div>
+                <div class="text-center md:text-left">
+                    <p class="text-emerald-100/60 text-lg mb-4">جميع الحقوق محفوظة © شركة الشخص التجارية 2026</p>
+                    <div class="flex gap-4 justify-center md:justify-end">
+                        <div class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-emerald-600 transition-colors cursor-pointer">
+                            <span class="text-xs">FB</span>
+                        </div>
+                        <div class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-emerald-600 transition-colors cursor-pointer">
+                            <span class="text-xs">TW</span>
+                        </div>
+                        <div class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-emerald-600 transition-colors cursor-pointer">
+                            <span class="text-xs">IN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Animations Styling -->
+    <style>
+        @keyframes scroll {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(20px); opacity: 0; }
+        }
+        .animate-scroll {
+            animation: scroll 2s infinite;
+        }
+        
+        /* Smooth Entrance for Sections */
+        .grid > div {
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+
+    <script src="chicken.js"></script>
+</body>
+</html>

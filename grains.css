@@ -1,0 +1,37 @@
+/* grains.css */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200..900&family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: #10b981;
+    color: white;
+}
+
+.font-kufam { font-family: 'Kufam', sans-serif; }
+.font-tajawal { font-family: 'Tajawal', sans-serif; }
+
+/* Custom Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+main > section {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Glassmorphism effects */
+.glass {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}

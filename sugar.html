@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>قسم السكر الأبيض | شركة الشخص التجارية</title>
+    <title>قسم السكر | شركة الشخص التجارية</title>
     <link rel="stylesheet" href="sugar.css">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200..900&family=Kufam:wght@400..900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -21,70 +21,152 @@
         }
     </script>
 </head>
-<body class="font-tajawal bg-white text-gray-900">
-    <header class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-amber-100 py-4">
+<body class="font-tajawal bg-emerald-950 text-gray-900 overflow-x-hidden">
+
+    <!-- Fixed Video Background Layer -->
+    <div class="fixed inset-0 w-full h-full z-0 overflow-hidden">
+        <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+            <source src="videos/فيديو صفحة السكر.mp4" type="video/mp4">
+        </video>
+        <!-- Immersive Fixed Overlays -->
+        <div class="absolute inset-0 bg-black/40 z-10"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-emerald-950/70 z-10"></div>
+    </div>
+
+    <!-- Sticky Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-4 sm:py-6" id="main-header">
         <div class="container mx-auto px-4 flex items-center justify-between">
-            <a href="index.html" class="flex items-center gap-3">
-                <img src="images/logo.jpg" alt="Logo" class="w-12 h-12 rounded-lg">
-                <span class="text-xl font-black text-emerald-900 font-kufam">شركة الشخص</span>
+            <a href="index.html" class="flex items-center gap-2 sm:gap-3">
+                <div class="p-1 bg-white rounded-lg sm:rounded-xl shadow-lg">
+                    <img src="images/logo.jpg" alt="Logo" class="w-8 h-8 sm:w-10 sm:h-10 rounded-md sm:rounded-lg">
+                </div>
+                <span class="text-lg sm:text-xl font-black text-white font-kufam tracking-tight drop-shadow-md">شركة الشخص</span>
             </a>
-            <a href="index.html" class="px-6 py-2 bg-amber-600 text-white rounded-xl text-sm font-bold hover:bg-amber-700 transition-all">العودة للرئيسية</a>
+            <a href="index.html" class="px-4 sm:px-6 py-2 sm:py-2.5 bg-emerald-600 text-white rounded-xl text-xs sm:text-sm font-bold hover:bg-emerald-700 transition-all hover:shadow-lg hover:shadow-emerald-600/30 flex items-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                <span class="hidden sm:inline">العودة للرئيسية</span>
+            </a>
         </div>
     </header>
 
-    <main class="pt-24">
-        <section class="relative py-20 overflow-hidden bg-gradient-to-br from-amber-600 to-amber-800 text-white">
-            <div class="absolute inset-0 opacity-10">
-                <img src="images/white-shogar.jpg" class="w-full h-full object-cover" alt="Background">
+    <main class="relative z-20">
+        <!-- Transparent Hero Content -->
+        <section class="relative h-screen flex items-center justify-center pt-20">
+            <div class="container mx-auto px-4 text-center">
+                <div class="max-w-4xl mx-auto">
+                    <div class="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-2.5 bg-amber-600 text-white rounded-full font-bold text-[10px] sm:text-sm mb-6 sm:mb-10 shadow-2xl animate-bounce">
+                        <span class="relative flex h-2 w-2 sm:h-3 sm:w-3">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-100 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 sm:h-3 sm:w-3 bg-white"></span>
+                        </span>
+                        جودة استثنائية ونقاء فائق
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-10 font-kufam leading-[1.2] sm:leading-[1.1] drop-shadow-2xl">
+                        أجود أنواع السكر <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-emerald-400">لأفضل الصناعات</span> 
+                    </h1>
+                    
+                    <p class="text-base sm:text-2xl text-emerald-50/90 mb-8 sm:mb-12 leading-relaxed max-w-3xl mx-auto drop-shadow-lg font-medium px-4">
+                        نقدم لكم سكر نقي ومعالج بأحدث المعايير العالمية، ليكون المكون السحري في منتجاتكم الغذائية واستخداماتكم اليومية.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
+                        <div class="w-full sm:w-auto p-4 sm:p-6 bg-white/10 backdrop-blur-2xl rounded-2xl sm:rounded-[2rem] border border-white/20 shadow-2xl flex items-center gap-4 hover:bg-white/20 transition-all duration-500 group cursor-default">
+                            <div class="text-4xl sm:text-5xl group-hover:scale-110 transition-transform">💎</div>
+                            <div class="text-right">
+                                <h4 class="font-bold text-white text-lg sm:text-xl">نقاء 100%</h4>
+                                <p class="text-amber-100/70 text-xs sm:text-sm">معالج بخصائص فائقة</p>
+                            </div>
+                        </div>
+                        <div class="w-full sm:w-auto p-4 sm:p-6 bg-white/10 backdrop-blur-2xl rounded-2xl sm:rounded-[2rem] border border-white/20 shadow-2xl flex items-center gap-4 hover:bg-white/20 transition-all duration-500 group cursor-default">
+                            <div class="text-4xl sm:text-5xl group-hover:scale-110 transition-transform">🍚</div>
+                            <div class="text-right">
+                                <h4 class="font-bold text-white text-lg sm:text-xl">تعبئة متنوعة</h4>
+                                <p class="text-amber-100/70 text-xs sm:text-sm">أوزان تناسب احتياجاتكم</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="container mx-auto px-4 relative z-10 text-center">
-                <h1 class="text-4xl sm:text-6xl font-black mb-6 font-kufam">قسم السكر الأبيض</h1>
-                <p class="text-xl text-amber-100 max-w-2xl mx-auto leading-relaxed">نقدم لكم أجود أنواع السكر الأبيض الناعم والنقي، المعبأ وفق أعلى معايير السلامة الغذائية العالمية لضمان الحلاوة المثالية.</p>
+
+            <!-- Scroll Indicator -->
+            <div class="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 sm:gap-3">
+                <span class="text-white/50 text-[10px] sm:text-xs font-bold uppercase tracking-widest">اكتشف المزيد</span>
+                <div class="w-6 h-10 sm:w-8 sm:h-14 border-2 border-white/20 rounded-full flex justify-center p-1.5 sm:p-2 backdrop-blur-sm">
+                    <div class="w-1 sm:w-1.5 h-2 sm:h-3 bg-amber-500 rounded-full animate-scroll"></div>
+                </div>
             </div>
         </section>
 
-        <section class="py-20 bg-white">
-            <div class="container mx-auto px-4">
-                <div class="max-w-4xl mx-auto">
-                    <div class="bg-amber-50 rounded-[3rem] p-8 sm:p-16 border border-amber-100 shadow-xl relative overflow-hidden">
-                        <div class="absolute top-0 right-0 w-32 h-32 bg-amber-200/30 rounded-full blur-3xl -mr-16 -mt-16"></div>
-                        
-                        <div class="grid md:grid-cols-2 gap-12 items-center">
-                            <div>
-                                <img src="images/white-shogar.jpg" alt="Sugar" class="rounded-[2rem] shadow-lg hover:scale-105 transition-transform duration-500">
-                            </div>
-                            <div>
-                                <h3 class="text-2xl font-black text-gray-900 mb-6">مواصفات سكر الشخص</h3>
-                                <div class="space-y-6">
-                                    <div class="flex gap-4">
-                                        <div class="w-12 h-12 bg-white rounded-2xl shadow-md flex items-center justify-center text-amber-600 shrink-0">✨</div>
-                                        <div>
-                                            <h4 class="font-bold text-gray-900">نقاء عالي</h4>
-                                            <p class="text-gray-600 text-sm">بلورات بيضاء نقية 100% مستخلصة من أفضل قصب السكر.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex gap-4">
-                                        <div class="w-12 h-12 bg-white rounded-2xl shadow-md flex items-center justify-center text-amber-600 shrink-0">📦</div>
-                                        <div>
-                                            <h4 class="font-bold text-gray-900">تعبئة فاخرة</h4>
-                                            <p class="text-gray-600 text-sm">أحجام مختلفة تناسب الاحتياجات المنزلية والتجارية.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="mt-10 w-full py-4 bg-amber-600 text-white font-black rounded-2xl hover:bg-amber-700 shadow-lg shadow-amber-200 transition-all">تواصل للطلب</button>
-                            </div>
+        <!-- Products Section with Transparent Background -->
+        <section class="py-32 relative overflow-hidden">
+            <div class="absolute inset-0 bg-emerald-950/30 backdrop-blur-[2px] z-0"></div>
+            
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center mb-20">
+                    <h2 class="text-4xl md:text-6xl font-black text-white font-kufam mb-6">منتجاتنا من السكر</h2>
+                    <p class="text-emerald-100/60 text-lg max-w-2xl mx-auto">نوفر تشكيلة واسعة من السكر الأبيض والناعم بمواصفات قياسية تلبي طموحاتكم.</p>
+                </div>
+
+                <div class="grid lg:grid-cols-3 gap-10">
+                    <div class="p-8 bg-white/5 backdrop-blur-2xl rounded-[2.5rem] border border-white/10 hover:bg-white/10 transition-all duration-500 group text-right">
+                        <div class="h-48 rounded-2xl bg-gradient-to-br from-amber-500/20 to-white/5 mb-6 flex items-center justify-center text-6xl group-hover:scale-105 transition-transform">
+                            🍬
                         </div>
+                        <h3 class="font-black mb-4 text-2xl text-white font-kufam">سكر خشن</h3>
+                        <p class="text-emerald-50/70 leading-relaxed">مثالي للاستخدامات الصناعية والحلويات التي تتطلب قواماً معيناً.</p>
+                    </div>
+                    <div class="p-8 bg-white/5 backdrop-blur-2xl rounded-[2.5rem] border border-white/10 hover:bg-white/10 transition-all duration-500 group text-right">
+                        <div class="h-48 rounded-2xl bg-gradient-to-br from-amber-500/20 to-white/5 mb-6 flex items-center justify-center text-6xl group-hover:scale-105 transition-transform">
+                            🍥
+                        </div>
+                        <h3 class="font-black mb-4 text-2xl text-white font-kufam">سكر ناعم</h3>
+                        <p class="text-emerald-50/70 leading-relaxed">سريع الذوبان ومناسب جداً للمشروبات والمخبوزات الرقيقة.</p>
+                    </div>
+                    <div class="p-8 bg-white/5 backdrop-blur-2xl rounded-[2.5rem] border border-white/10 hover:bg-white/10 transition-all duration-500 group text-right">
+                        <div class="h-48 rounded-2xl bg-gradient-to-br from-amber-500/20 to-white/5 mb-6 flex items-center justify-center text-6xl group-hover:scale-105 transition-transform">
+                            🛡️
+                        </div>
+                        <h3 class="font-black mb-4 text-2xl text-white font-kufam">تعبئة خاصة</h3>
+                        <p class="text-emerald-50/70 leading-relaxed">نوفر حلول تعبئة مخصصة للفنادق والمطاعم بماركة خاصة.</p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="bg-amber-950 text-white py-12">
-        <div class="container mx-auto px-4 text-center">
-            <p class="text-amber-200/60 text-sm">جميع الحقوق محفوظة © شركة الشخص التجارية 2026</p>
+    <!-- Footer -->
+    <footer class="relative z-20 bg-black/40 backdrop-blur-md text-white py-20 border-t border-white/10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-12">
+                <div class="flex items-center gap-6">
+                    <div class="p-2 bg-white rounded-2xl shadow-xl">
+                        <img src="images/logo.jpg" alt="Logo" class="w-16 h-16 rounded-xl">
+                    </div>
+                    <div>
+                        <span class="text-3xl font-black font-kufam block text-white">شركة الشخص التجارية</span>
+                        <span class="text-amber-400 text-sm font-bold tracking-widest uppercase">التميز في عالم التموين</span>
+                    </div>
+                </div>
+                <div class="text-center md:text-left">
+                    <p class="text-emerald-100/60 text-lg mb-4">جميع الحقوق محفوظة © شركة الشخص التجارية 2026</p>
+                </div>
+            </div>
         </div>
     </footer>
+
+    <style>
+        @keyframes scroll {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(20px); opacity: 0; }
+        }
+        .animate-scroll {
+            animation: scroll 2s infinite;
+        }
+    </style>
 
     <script src="sugar.js"></script>
 </body>
